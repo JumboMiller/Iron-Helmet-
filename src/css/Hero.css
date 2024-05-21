@@ -1,0 +1,175 @@
+.hero-bar{
+  width: 1280px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(115, 90, 65);
+  align-items: center;
+}
+.hero-bar-spell-bar{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero-bar-spell-bar img{
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.hero-bar-spell-bar img:hover{
+  transform: scale(0.9); 
+}
+.hero-bar-spell p{
+  margin-top:-5px;
+  position: absolute;
+  background-color: cadetblue;
+  width: 75px;
+  text-align: center;
+}
+
+.spell-bar-blocked{
+  display: none;
+}
+.hero-bar-info{
+  display: flex;
+}
+
+.hero-bar-info ul{
+  padding-left: 25px;
+}
+
+.hero-bar-map{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(162, 190, 190);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.hero-bar-map-line{
+
+  display: flex;
+}
+.hero-bar-map-block{
+  width: 35px;
+  height: 35px;
+  margin: 1px;
+  transition: all .2s ease-in-out;
+}
+.hero-bar-map-block:hover{
+  transform: scale(0.8); 
+}
+
+.hero-bar-console-btn{
+  width: 50px;
+  height: 50px;
+  transition: all .2s ease-in-out;
+}
+.hero-bar-console-btn:hover{
+  transform: scale(0.9); 
+}
+.hero-bar-console {
+  display: flex;
+}
+.hero-bar-console div{
+  padding: 5px;
+}
+
+.hero-pop-up{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+.hero-pop-up-active{
+  opacity: 1;
+  pointer-events: all;
+}
+.hero-pop-up-close-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-inventory-div{
+  background-color: rgb(115, 90, 65);
+  width: 1000px;
+  height: 650px;
+  border-radius:10px;
+}
+.hero-inventory-div h3{
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+}
+.hero-inventory-stats-items{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-inventory-stats-item-img{
+  width: 75px;
+  height: 75px;
+  padding: 5px;
+}
+.hero-inventory-stats-items-body{
+  display: flex;
+}
+.hero-inventory-stats-items-legs{
+  display: flex;
+  flex-direction: column;
+}
+.hero-inventory-stats-div{
+  display: flex;
+  justify-content: space-around;
+}
+.hero-inventory-stats-text{
+  width: 300px;
+  text-align: center;
+}
+.hero-inventory-stats-text h3 {
+  margin: 0px;
+}
+.hero-inventory-backpack{
+  display: flex;
+}
+
+.hero-potion-div{
+  background-color: rgb(115, 90, 65);
+  width: 450px;
+  height: 500px;
+  border-radius:10px;
+}
+.hero-potion-table-div{
+  margin-left:auto;
+  margin-right: auto;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero-potion-table-element{
+  height: 75px;
+  width: 75px;
+  padding: 10px;  
+  transition: all .2s ease-in-out;
+}
+.hero-potion-table-element:hover{
+  transform: scale(0.9); 
+}

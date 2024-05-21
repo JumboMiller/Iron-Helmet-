@@ -1,0 +1,73 @@
+*{
+  user-select:none; 
+}
+ul{
+  padding: 0px;
+  list-style-type:none
+ }
+body{
+  background-color: rgb(229, 229, 229);
+  margin: 0px;
+  padding: 0px;
+  color: rgb(231, 231, 231);
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-zone{
+  width: 1280px;
+  height: 720px;
+ 
+
+}
+.test-dungeon-1-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-1-room.jpg);
+}
+.test-dungeon-2-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-2-room.jpg);
+}
+.test-dungeon-3-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-3-room.jpg);
+}
+.test-dungeon-4-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-4-room.jpg);
+}
+.test-dungeon-5-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-5-room.jpg);
+}
+.test-dungeon-6-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-6-room.jpg);
+}
+.test-dungeon-7-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-7-room.jpg);
+}
+.test-dungeon-start-room{
+  background-image: url(../assets/backgrounds/test-dungeon-background-start-room.jpg);
+}
+
+.dungeon-room{
+  width: 1280px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-bar-chosen-spell{
+  box-shadow: 1px 1px 5px 5px black ;
+}
+.visible{
+  display:block;
+}
+.invisible{
+  display: none;
+}
+
+

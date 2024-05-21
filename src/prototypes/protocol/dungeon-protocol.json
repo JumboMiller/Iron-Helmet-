@@ -1,0 +1,22 @@
+{
+    "Cave":{
+        "numbersOfRooms":8,
+        "chestChance":1
+    },
+    "Castle":{
+        "numbersOfRooms":9,
+        "chestChance":2
+    },
+    "CastleKey":{
+        "numbersOfRooms":9,
+        "chestChance":3
+    },
+    "RoyalChambers":{
+        "numbersOfRooms":10,
+        "chestChance":3
+    },
+    "RoyalChambersKey":{
+        "numbersOfRooms":10,
+        "chestChance":5
+    }
+}
